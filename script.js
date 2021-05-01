@@ -9,11 +9,14 @@ function getTim(){
     document.getElementById(d).style.color = "red";
     var month=check(new Number(date.getUTCMonth()+1));
     var day=check(new Number(date.getUTCDate()));
-    document.getElementById("date").innerHTML="DATE:"+date.getUTCFullYear()+"-"+month+"-"+day;
+    document.getElementById("date").innerHTML=date.getUTCFullYear()+"-"+month+"-"+day;
     
     var time=h+":"+m+":"+s;
 
-    document.getElementById("time").innerHTML=time;
+    document.getElementById("h").innerHTML=h
+    +":";
+    document.getElementById("m").innerHTML=m+":";
+    document.getElementById("s").innerHTML=s;
     t=setTimeout(function(){ getTim()},500);
 }
 function check(h){

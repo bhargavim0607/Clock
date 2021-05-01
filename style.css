@@ -15,8 +15,29 @@ body{
     margin:0 auto;
     margin-top:15%;
 }
+.text-center1{
+    display: inline;
+}
+#h{
+    color: turquoise;
+    font-weight: bolder;
+    font-size: larger;
+    font-size: 50px;
+}
+#m{
+    color: cornflowerblue;
+    font-weight: bolder;
+    font-size: larger;
+    font-size: 50px;
+}
+#s{
+    color:cyan ;
+    font-weight: bolder;
+    font-size: larger;
+    font-size: 50px;
+}
 #time{
-    color: cornsilk;
+    color: crimson;
     font-weight: bolder;
     font-size: larger;
     font-size: 50px;
@@ -24,7 +45,7 @@ body{
 }
 #date{
     font-weight: bolder;
-    color: cornsilk;
+    color: tomato;
     
 }
 .days{
@@ -36,6 +57,6 @@ body{
 small{
     margin-left: 5px;
     border-radius: 5px;
-    border-color: cyan;
+    
     border-width: 2px;
 }
